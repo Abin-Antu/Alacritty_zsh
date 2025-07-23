@@ -1,0 +1,31 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/aura.toml"
+]
+
+[window]
+opacity = 0.6   
+blur = true
+
+[font]
+normal = { family = "MesloLGS NF", style = "Regular" }
+bold = { family = "MesloLGS NF", style = "Bold" }
+italic = { family = "MesloLGS NF", style = "Italic" }
+bold_italic = { family = "MesloLGS NF", style = "Bold Italic" }
+size = 12.0
+
+[[keyboard.bindings]]
+key = "C"
+mods = "Control"
+action = "Copy"
+
+[[keyboard.bindings]]
+key = "V"
+mods = "Control"
+action = "Paste"
+
+[[keyboard.bindings]]
+key = "C"
+mods = "Alt"
+chars = "\u0003"
+
