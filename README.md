@@ -19,7 +19,7 @@ Here’s a preview of the setup:
 
 ```
 .
-├── alacritty.yml       # Alacritty terminal configuration
+├── alacritty.toml       # Alacritty terminal configuration
 ├── .zshrc              # Zsh shell configuration
 ├── screenshot.png      # Screenshot of terminal setup
 └── README.md           # This file
